@@ -209,19 +209,19 @@ the CSS inline. */
     width: 545px;
     height: 265px;
     top: 315px;
-    left: 153px;
+    left: 152px;
 }
 .custom .stick {
     position: absolute;
-    background: url(https://i.imgur.com/f7mpBYQ.png);
-    height: 92px;
-    width: 92px;
+    background: url(https://i.imgur.com/YziouTF.png);
+    height: 93px;
+    width: 94px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -93px;
+    background-position-x: -95px;
 }
 .custom .stick.pressed.right{
-    background-position-x: -93px;
+    background-position-x: -95px;
 }
 .custom .stick.left{
     top: 0;
@@ -240,7 +240,7 @@ the CSS inline. */
     left: 128px;
 }
 .custom .face {
-    background: url(https://i.imgur.com/cZeLdiZ.png);
+    background: url(https://i.imgur.com/yH0VKgd.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
@@ -252,12 +252,12 @@ the CSS inline. */
     height: 45px;
 }
 .custom .face.up{
-    left: 49px;
+    left: 47px;
     top: 0;
     background-position: 92px 0px;
 }
 .custom .face.down{
-    left: 49px;
+    left: 47px;
     top: 92px;
     background-position: 138px 0;
 }
@@ -268,13 +268,13 @@ the CSS inline. */
 }
 .custom .face.right{
     top: 46px;
-    right: 0px;
+    right: 1px;
     background-position: 46px 0;
 }
-.custom .face.pressed{
-    margin-top: 0px;
-    background-position-y: 46px;
-}
+    .custom .face.pressed {
+        margin-top: 0px;
+        background-position-y: 46px;
+    }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
 the left and right triggers and digital buttons, there are separate 
